@@ -378,7 +378,7 @@ function App() {
             <Settings />
           </button>
           <h1 className="flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
-            WORD MASTER
+            CHANPYON DI MÓ DÉ SËN 
           </h1>
           <button
             type="button"
@@ -418,7 +418,7 @@ function App() {
                   className="rounded-lg z-10 px-6 py-2 text-lg nm-flat-background dark:nm-flat-background-dark hover:nm-inset-background dark:hover:nm-inset-background-dark text-primary dark:text-primary-dark"
                   onClick={playAgain}
                 >
-                  Play Again
+                  Dzowe ouncóméi
                 </button>
               </div>
             </div>
