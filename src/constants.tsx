@@ -7,7 +7,7 @@ export const keyboardLetters = [
 export const letters = [
   'A',
   'À',
-  'À',
+  'Â',
   'B',
   'C',
   'D',
