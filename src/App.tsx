@@ -97,11 +97,11 @@ function App() {
   const [difficultyLevel, setDifficultyLevel] = useLocalStorage('difficulty', difficulty.normal)
   const getDifficultyLevelInstructions = () => {
     if (difficultyLevel === difficulty.easy) {
-      return 'Guess any 5 letters'
+      return 'Ëndinne nënporte kyënté sën wétré'
     } else if (difficultyLevel === difficulty.hard) {
-      return "Guess any valid word using all the hints you've been given"
+      return "Ëndinne oun mó kyé éziste ma to di ënpléé é-j-ëndicasyon"
     } else {
-      return 'Guess any valid word'
+      return 'Ëndinné n ënporte kye mó kyé éziste'
     }
   }
   const eg: { [key: number]: string } = {}
