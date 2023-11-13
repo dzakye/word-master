@@ -38,7 +38,7 @@ export const SettingsModal = ({
         <div
           className={`h-full flex flex-col items-center justify-center max-w-[390px] mx-auto pt-9 text-primary dark:text-primary-dark `}
         >
-          <h1 className="text-center mb-4 sm:text-3xl text-2xl">Settings</h1>
+          <h1 className="text-center mb-4 sm:text-3xl text-2xl">Réglâdzó</h1>
           <div className="flex-1 w-full border-b border-slate-400 mb-4">
             <button
               className="absolute top-4 right-4 rounded-full nm-flat-background dark:nm-flat-background-dark text-primary dark:text-primary-dark p-1 w-6 h-6 sm:p-2 sm:h-8 sm:w-8 hover:nm-inset-background dark:hover:nm-inset-background-dark"
@@ -65,7 +65,7 @@ export const SettingsModal = ({
                 />
               </Switch>
               <Switch.Label as="span" className="ml-3 cursor-pointer">
-                Dark Mode
+                Módo tópó
               </Switch.Label>
             </Switch.Group>
 
