@@ -70,7 +70,7 @@ export const SettingsModal = ({
             </Switch.Group>
 
             <RadioGroup value={difficultyLevel} onChange={setDifficultyLevel} className="mt-6">
-              <RadioGroup.Label className="w-full text-center">Difficulty Level</RadioGroup.Label>
+              <RadioGroup.Label className="w-full text-center">Dégré dé dificolta</RadioGroup.Label>
               <div className="grid grid-cols-3 gap-2 rounded-full mt-2 p-1 nm-inset-background dark:nm-inset-background-dark">
                 {Object.keys(difficulty).map((option) => (
                   <RadioGroup.Option
@@ -94,24 +94,24 @@ export const SettingsModal = ({
           </div>
           <div className="flex flex-col items-center">
             <div className="mb-4">
-              If you're enjoying this game, you can show your support by{' '}
+              Che vó j'anma sti dzwa, vó poude mé  {' '}
               <a
-                href="https://www.buymeacoffee.com/katherinecodes"
+                href="https://www.buymeacoffee.com/dzakye"
                 target="_blank"
                 rel="noreferrer"
               >
-                buying me a coffee
+                pae oun caféi
               </a>
               <span className="ml-1 text-xs">💛</span>
             </div>
             <a
-              href="https://www.buymeacoffee.com/katherinecodes"
+              href="https://www.buymeacoffee.com/dzakye"
               target="_blank"
               rel="noreferrer"
               className="nm-flat-background dark:nm-flat-background-dark rounded-xl hover:nm-inset-background dark:hover:nm-inset-background-dark"
             >
               <img
-                alt="buy me a coffee"
+                alt="Pó mé pae oun caféi"
                 src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=katherinecodes&button_colour=eab308&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
               />
             </a>
