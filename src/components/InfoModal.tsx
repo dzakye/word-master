@@ -22,10 +22,10 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
       </button>
       <div className="h-full flex flex-col items-center justify-center max-w-[390px] mx-auto pt-9 text-primary dark:text-primary-dark">
         <div className="flex-1 w-full sm:text-base text-sm">
-          <h1 className="text-center sm:text-3xl text-2xl">How to play</h1>
+          <h1 className="text-center sm:text-3xl text-2xl">Cómin dzowe</h1>
           <ul className="list-disc pl-5 block sm:text-base text-sm">
-            <li className="mt-6 mb-2">You have 6 guesses to guess the correct word.</li>
-            <li className="mb-2">You can guess any valid word.</li>
+            <li className="mt-6 mb-2">To pou aprowa d'ëndinna ó mó 6 âdzó.</li>
+            <li className="mb-2">Ma i té fóou ënpléé dé mó kyé éziston ën Chavyéjan. <a href="https://patwe.ch/lexique-favre-balet/recherche-lexique-balet-favre/">Dichyónér.ó</a></li>
             <li className="mb-2">
               After each guess, each letter will turn green, yellow, or gray.
             </li>
