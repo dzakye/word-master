@@ -97,11 +97,11 @@ function App() {
   const [difficultyLevel, setDifficultyLevel] = useLocalStorage('difficulty', difficulty.normal)
   const getDifficultyLevelInstructions = () => {
     if (difficultyLevel === difficulty.easy) {
-      return 'Ëndinne nënporte kyënté sën wétré'
+      return 'Ëndinne n\'ënporte kyënté sën wétré'
     } else if (difficultyLevel === difficulty.hard) {
       return "Ëndinne oun mó kyé éziste ma to di ënpléé é-j-ëndicasyon"
     } else {
-      return 'Ëndinné n ënporte kye mó kyé éziste'
+      return 'Ëndinné n\'ënporte kyën mó kyé éziste'
     }
   }
   const eg: { [key: number]: string } = {}
