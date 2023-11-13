@@ -27,7 +27,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
             <li className="mt-6 mb-2">To pou aprowa d'ëndinna ó mó 6 âdzó.</li>
             <li className="mb-2">Ma i té fóou ënpléé dé mó kyé éziston ën Chavyéjan. <a href="https://patwe.ch/lexique-favre-balet/recherche-lexique-balet-favre/">Dichyónér.ó</a></li>
             <li className="mb-2">
-              After each guess, each letter will turn green, yellow, or gray.
+              Aprèi tsekye ëndinnâe, é caron van eni vè, dzânó, ou gri.
             </li>
           </ul>
           <div className="mb-3 mt-8 flex items-center">
@@ -35,23 +35,23 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
               W
             </span>
             <span className="mx-2">=</span>
-            <span>Correct letter, correct spot</span>
+            <span>Wétra jesta, ou bon rlwa</span>
           </div>
           <div className="mb-3">
             <span className="nm-inset-yellow-500 text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
               W
             </span>
             <span className="mx-2">=</span>
-            <span>Correct letter, wrong spot</span>
+            <span>Wétra jesta, pa â bóna plache</span>
           </div>
           <span className="nm-inset-n-gray text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
             W
           </span>
           <span className="mx-2">=</span>
-          <span>Wrong letter</span>
+          <span>Wétra fósa</span>
         </div>
         <div className="flex justify-center sm:text-base text-sm">
-          <span>This project is open source on</span>
+          <span>Sti prójé l'é ën partâdz wibró ('open source')</span>
           <a
             className="ml-[6px] rounded-full h-5 w-5 sm:h-6 sm:w-6"
             href="https://github.com/octokatherine/word-master"
