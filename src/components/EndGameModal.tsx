@@ -72,7 +72,7 @@ export const EndGameModal = ({
           className="rounded-lg px-6 py-2 mt-8 text-lg nm-flat-background dark:nm-flat-background-dark hover:nm-inset-background dark:hover:nm-inset-background-dark text-primary dark:text-primary-dark"
           onClick={playAgain}
         >
-          Play Again
+          Dzowe ouncóméi
         </button>
       </div>
     )
@@ -94,10 +94,10 @@ export const EndGameModal = ({
           </button>
           {gameState === state.won && (
             <>
-              <h1 className=" text-3xl">Congrats! 🎉</h1>
+              <h1 className=" text-3xl">Féwisitasyon! 🎉</h1>
               <dl className="mt-5 grid grid-cols-1 gap-5">
                 <div className="rounded-lg p-4 flex-grow relative nm-flat-background dark:nm-flat-background-dark text-primary dark:text-primary-dark">
-                  <dt className="text-sm font-medium truncate">Current Streak</dt>
+                  <dt className="text-sm font-medium truncate">Tir.a dé óra</dt>
                   <dd
                     className={`mt-1 text-3xl font-semibold ${currentStreakClass(currentStreak)}`}
                   >
@@ -110,7 +110,7 @@ export const EndGameModal = ({
 
                 {avgGuessesPerGame > 0 && (
                   <div className="rounded-lg p-4 flex-grow relative nm-flat-background dark:nm-flat-background-dark text-primary dark:text-primary-dark">
-                    <dt className="text-sm font-medium truncate">Avg. guesses in streak</dt>
+                    <dt className="text-sm font-medium truncate">Mwééna di nombró d'ëndin.néi</dt>
                     <dd
                       className={`mt-1 text-3xl font-semibold ${avgGuessesClass(
                         avgGuessesPerGame
@@ -125,7 +125,7 @@ export const EndGameModal = ({
                 )}
 
                 <div className="rounded-lg p-4 flex-grow relative nm-flat-background dark:nm-flat-background-dark text-primary dark:text-primary-dark">
-                  <dt className="text-sm font-medium truncate">Longest streak</dt>
+                  <dt className="text-sm font-medium truncate">I plo ondze tir.a</dt>
                   <dd className="mt-1 text-3xl font-semibold">{longestStreak}</dd>
                 </div>
               </dl>
@@ -135,15 +135,15 @@ export const EndGameModal = ({
             <>
               <img src={Fail} alt="success" height="auto" width="80%" />
               <div className="text-primary dark:text-primary-dark text-4xl text-center">
-                <p>Oops!</p>
+                <p>Ma!</p>
                 <p className="mt-3 text-2xl">
-                  The word was <strong>{answer}</strong>
+                  I mòse ir.e <strong>{answer}</strong>
                 </p>
                 <p className="mt-6 text-base">
-                  Current streak: <strong>{currentStreak}</strong> {currentStreak > 4 && '🔥'}
+                  Tir.a dé ór.a: <strong>{currentStreak}</strong> {currentStreak > 4 && '🔥'}
                 </p>
                 <p className="text-base">
-                  Longest streak: <strong>{longestStreak}</strong>
+                  I plo ondze tir.e: <strong>{longestStreak}</strong>
                 </p>
               </div>
             </>
