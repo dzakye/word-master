@@ -19,7 +19,7 @@ const state = {
 
 export const difficulty = {
   easy: 'ijya',
-  normal: 'nermawe',
+  normal: 'normawe',
   hard: 'doo',
 }
 
