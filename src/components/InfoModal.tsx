@@ -51,7 +51,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
           <span className="mb-2 text-xl">Wétra fósa</span>
         </div>
         <div className="flex justify-center sm:text-base text-sm">
-          <span className="mb-2 sm:text-2xl text-xl">Sti prójé l'é ën partâdzó wibró ('open source')</span>
+          <span className="mb-2 text-xl">Sti prójé l'é ën partâdzó wibró ('open source')</span>
           <a
             className="ml-[6px] rounded-full h-5 w-5 sm:h-6 sm:w-6"
             href="https://github.com/octokatherine/word-master"
