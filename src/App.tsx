@@ -18,9 +18,9 @@ const state = {
 }
 
 export const difficulty = {
-  easy: 'ijya',
-  normal: 'normawe',
-  hard: 'doo',
+  easy: 'easy',
+  normal: 'normal',
+  hard: 'hard',
 }
 
 const getRandomAnswer = () => {
