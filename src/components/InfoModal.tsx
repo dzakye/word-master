@@ -48,7 +48,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
             W
           </span>
           <span className="mx-2 text-3x">=</span>
-          <span className="mb-2 text-2xl">Wétra fósa</span>
+          <span className="mb-2 text-xl">Wétra fósa</span>
         </div>
         <div className="flex justify-center sm:text-base text-sm">
           <span className="mb-2 sm:text-2xl text-2xl">Sti prójé l'é ën partâdzó wibró ('open source')</span>
