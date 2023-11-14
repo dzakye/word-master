@@ -18,7 +18,7 @@ const state = {
 }
 
 export const difficulty = {
-  easy: 'ijya',
+  easy: 'easy',
   normal: 'normal',
   hard: 'hard',
 }
@@ -378,7 +378,7 @@ function App() {
             <Settings />
           </button>
           <h1 className="flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold font-righteous">
-            WORD METR0
+            WORD MASTER
           </h1>
           <button
             type="button"
