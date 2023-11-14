@@ -24,9 +24,9 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
         <div className="flex-1 w-full sm:text-base text-sm">
           <h1 className="text-center sm:text-3xl text-2xl">Cómin dzowe</h1>
           <ul className="list-disc pl-5 block sm:text-base text-sm">
-            <li className="mt-6 mb-2 sm:text-3xl text-2xl">To pou aprowa d'ëndinna ó mó 6 âdzó.</li>
-            <li className="mb-2 sm:text-3xl text-2xl">Ma i té fóou ënpléé dé mó kyé éziston ën Chavyéjan. <a href="https://patwe.ch/lexique-favre-balet/recherche-lexique-balet-favre/" target="blank">I dichyónér.ó l'é ËNKYE</a></li>
-            <li className="mb-2 sm:text-3xl text-2xl">
+            <li className="mt-6 mb-2 sm:text-2xl text-2xl">To pou aprowa d'ëndinna ó mó 6 âdzó.</li>
+            <li className="mb-2 sm:text-2xl text-2xl">Ma i té fóou ënpléé dé mó kyé éziston ën Chavyéjan. <a href="https://patwe.ch/lexique-favre-balet/recherche-lexique-balet-favre/" target="blank">I dichyónér.ó l'é ËNKYE</a></li>
+            <li className="mb-2 sm:text-2xl text-2xl">
               Aprèi tsekye ëndinnâe, é caron van eni vè, dzânó, ou gri.
             </li>
           </ul>
@@ -35,23 +35,23 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
               W
             </span>
             <span className="mx-2 text-3x">=</span>
-            <span className="mb-2 sm:text-3xl text-2xl">Wétra jesta, ou bon rlwa</span>
+            <span className="mb-2 sm:text-2xl text-2xl">Wétra jesta, ou bon rlwa</span>
           </div>
           <div className="mb-3">
             <span className="nm-inset-yellow-500 text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
               W
             </span>
             <span className="mx-2 text-3x">=</span>
-            <span className="mb-2 sm:text-3xl text-2xl">Wétra jesta, pa â bóna plache</span>
+            <span className="mb-2 sm:text-2xl text-2xl">Wétra jesta, pa â bóna plache</span>
           </div>
           <span className="nm-inset-n-gray text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
             W
           </span>
           <span className="mx-2 text-3x">=</span>
-          <span className="mb-2 sm:text-3xl text-2xl">Wétra fósa</span>
+          <span className="mb-2 sm:text-2xl text-2xl">Wétra fósa</span>
         </div>
         <div className="flex justify-center sm:text-base text-sm">
-          <span className="mb-2 sm:text-3xl text-2xl">Sti prójé l'é ën partâdzó wibró ('open source')</span>
+          <span className="mb-2 sm:text-2xl text-2xl">Sti prójé l'é ën partâdzó wibró ('open source')</span>
           <a
             className="ml-[6px] rounded-full h-5 w-5 sm:h-6 sm:w-6"
             href="https://github.com/octokatherine/word-master"
