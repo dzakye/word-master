@@ -35,20 +35,20 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
               W
             </span>
             <span className="mx-2 text-3x">=</span>
-            <span className="mb-2 sm:text-2xl text-xl">Wétra jesta, ou bon rlwa</span>
+            <span className="mb-2 text-xl">Wétra jesta, ou bon rlwa</span>
           </div>
           <div className="mb-3">
             <span className="nm-inset-yellow-500 text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
               W
             </span>
             <span className="mx-2 text-3x">=</span>
-            <span className="mb-2 sm:text-2xl text-xl">Wétra jesta, pa â bóna plache</span>
+            <span className="mb-2 text-xl">Wétra jesta, pa â bóna plache</span>
           </div>
           <span className="nm-inset-n-gray text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
             W
           </span>
           <span className="mx-2 text-3x">=</span>
-          <span className="mb-2 sm:text-2xl text-2xl">Wétra fósa</span>
+          <span className="mb-2 text-2xl">Wétra fósa</span>
         </div>
         <div className="flex justify-center sm:text-base text-sm">
           <span className="mb-2 sm:text-2xl text-2xl">Sti prójé l'é ën partâdzó wibró ('open source')</span>
