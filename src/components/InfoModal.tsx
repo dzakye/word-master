@@ -24,8 +24,17 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
         <div className="flex-1 w-full sm:text-base text-sm">
           <h1 className="text-center sm:text-3xl text-xl">Cómin dzowe</h1>
           <ul className="list-disc pl-5 block sm:text-base text-sm">
-            <li className="mt-6 mb-2 sm:text-2xl text-xl" alt="Tu peux essayer de deviner le mot 6 fois">To pou aprowa d'ëndinna ó mó 6 âdzó.</li>
-            <li className="mb-2 sm:text-2xl text-xl">Ma i té fóou ënpléé dé mó kyé éziston ën Chavyéjan. <a href="https://patwe.ch/lexique-favre-balet/recherche-lexique-balet-favre/" target="blank">I dichyónér.ó l'é ËNKYE</a></li>
+            <li className="mt-6 mb-2 sm:text-2xl text-xl">
+              <a alt="Tu peux essayer de deviner six fois">
+              To pou aprowa d'ëndinna ó mó 6 âdzó.
+              </a>
+            </li>
+            <li className="mb-2 sm:text-2xl text-xl">
+              Ma i té fóou ënpléé dé mó kyé éziston ën Chavyéjan. 
+              <a href="https://patwe.ch/lexique-favre-balet/recherche-lexique-balet-favre/" target="blank">
+              I dichyónér.ó l'é ËNKYE
+              </a>
+            </li>
             <li className="mb-2 sm:text-2xl text-xl">
               Aprèi tsekye ëndinnâe, é caron van eni vè, dzânó, ou gri.
             </li>
