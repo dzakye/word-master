@@ -30,27 +30,29 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
               Aprèi tsekye ëndinnâe, é caron van eni vè, dzânó, ou gri.
             </li>
           </ul>
-          <div className="mb-4 mt-2 flex items-center">
+          <div className="mb-3 mt-2 flex items-center">
             <span className="nm-inset-n-green text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
               Ō
             </span>
             <span className="mx-2 text-3x">=</span>
-            <span className="mb-2 text-xl">Wétra jesta, ou bon rlwa</span>
+            <span className="text-xl">Wétra jesta, ou bon rlwa</span>
           </div>
           <div className="mb-3">
             <span className="nm-inset-yellow-500 text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
               Ë
             </span>
             <span className="mx-2 text-3x">=</span>
-            <span className="mb-2 text-xl">Wétra jesta, PA ou bon rlwa</span>
+            <span className="text-xl">Wétra jesta, PA ou bon rlwa</span>
           </div>
+          <div className="mb-3">
           <span className="nm-inset-n-gray text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
             Â
           </span>
           <span className="mx-2 text-3x">=</span>
-          <span className="mb-2 text-xl">Wétra fósa</span>
+          <span className="text-xl">Wétra fósa</span>
+          </div>
         </div>
-        <div className="mt-3 flex justify-center sm:text-base text-sm">
+        <div className="flex justify-center sm:text-base text-sm">
           <span className="mb-2 text-xl">Sti prójé l'é ën partâdzó wibró ('open source')</span>
           <a
             className="ml-[6px] rounded-full h-5 w-5 sm:h-6 sm:w-6"
