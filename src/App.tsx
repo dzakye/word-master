@@ -96,7 +96,7 @@ function App() {
   const [settingsModalIsOpen, setSettingsModalIsOpen] = useState(false)
   const [difficultyLevel, setDifficultyLevel] = useLocalStorage('difficulty', difficulty.normal)
   const getDifficultyLevelInstructions = () => {
-    if (difficultyLevel === difficulty.easy) {
+    if (difficultyLevel === difficulty.ijya) {
       return 'Ëndinne n\'ënporte kyënté sën wétré'
     } else if (difficultyLevel === difficulty.hard) {
       return "Ëndinne oun mó kyé éziste ma to di ënpléé é-j-ëndicasyon"
