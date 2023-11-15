@@ -112,7 +112,7 @@ export const SettingsModal = ({
             >
               <img
                 alt="Pó mé pae oun caféi"
-                src='../data/Cafei.png'
+                src="https://patwe.ch/img/Cafei.png"
               />
             </a>
           </div>
