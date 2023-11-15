@@ -96,7 +96,7 @@ export const SettingsModal = ({
             <div className="mb-4">
               Che vó j'anma sti dzwa, vó poude mé  {' '}
               <a
-                href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f2158586da848&mfid=1700062809681_f2158586da848#/checkout/openButton"
+                href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8LV77XUK46AV4"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -105,7 +105,7 @@ export const SettingsModal = ({
               <span className="ml-1 text-xs">💛</span>
             </div>
             <a
-              href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f2158586da848&mfid=1700062809681_f2158586da848#/checkout/openButton"
+              href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8LV77XUK46AV4"
               target="_blank"
               rel="noreferrer"
               className="nm-flat-background dark:nm-flat-background-dark rounded-xl hover:nm-inset-background dark:hover:nm-inset-background-dark"
