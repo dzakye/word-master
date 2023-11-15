@@ -30,7 +30,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
               Aprèi tsekye ëndinnâe, é caron van eni vè, dzânó, ou gri.
             </li>
           </ul>
-          <div className="mb-3 mt-2 flex items-center">
+          <div className="mt-2 flex items-center">
             <span className="nm-inset-n-green text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
               Ō
             </span>
