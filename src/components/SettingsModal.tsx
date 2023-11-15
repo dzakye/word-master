@@ -96,7 +96,7 @@ export const SettingsModal = ({
             <div className="mb-4">
               Che vó j'anma sti dzwa, vó poude mé  {' '}
               <a
-                href="https://www.buymeacoffee.com/dzakye"
+                href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f2158586da848&mfid=1700062809681_f2158586da848#/checkout/openButton"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -105,14 +105,14 @@ export const SettingsModal = ({
               <span className="ml-1 text-xs">💛</span>
             </div>
             <a
-              href="https://www.buymeacoffee.com/dzakye"
+              href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f2158586da848&mfid=1700062809681_f2158586da848#/checkout/openButton"
               target="_blank"
               rel="noreferrer"
               className="nm-flat-background dark:nm-flat-background-dark rounded-xl hover:nm-inset-background dark:hover:nm-inset-background-dark"
             >
               <img
                 alt="Pó mé pae oun caféi"
-                src="https://img.buymeacoffee.com/button-api/?text=Mé paé oun caféi&emoji=&slug=katherinecodes&button_colour=eab308&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
+                src="../data/Cafei.png"
               />
             </a>
           </div>
