@@ -18,9 +18,9 @@ const state = {
 }
 
 export const difficulty = {
-  easy: 'easy',
-  normal: 'normal',
-  hard: 'hard',
+  ijya: 'ijya',
+  normawe: 'normawe',
+  doo: 'doo',
 }
 
 const getRandomAnswer = () => {
@@ -94,11 +94,11 @@ function App() {
   )
   const [infoModalIsOpen, setInfoModalIsOpen] = useState(firstTime)
   const [settingsModalIsOpen, setSettingsModalIsOpen] = useState(false)
-  const [difficultyLevel, setDifficultyLevel] = useLocalStorage('difficulty', difficulty.normal)
+  const [difficultyLevel, setDifficultyLevel] = useLocalStorage('difficulty', difficulty.normawe)
   const getDifficultyLevelInstructions = () => {
-    if (difficultyLevel === difficulty.easy) {
+    if (difficultyLevel === difficulty.ijya) {
       return 'Ëndinne n\'ënporte kyënté sën wétré'
-    } else if (difficultyLevel === difficulty.hard) {
+    } else if (difficultyLevel === difficulty.doo) {
       return "Ëndinne oun mó kyé éziste ma to di ënpléé é-j-ëndicasyon"
     } else {
       return 'Ëndinné n\'ënporte kyën mó kyé éziste'
@@ -170,9 +170,9 @@ function App() {
   // returns an array with a boolean of if the word is valid and an error message if it is not
   const isValidWord = (word: string): [boolean] | [boolean, string] => {
     if (word.length < 5) return [false, `please enter a 5 letter word`]
-    if (difficultyLevel === difficulty.easy) return [true]
+    if (difficultyLevel === difficulty.ijya) return [true]
     if (!words[word.toLowerCase()]) return [false, `${word} is not a valid word. Please try again.`]
-    if (difficultyLevel === difficulty.normal) return [true]
+    if (difficultyLevel === difficulty.normawe) return [true]
     const guessedLetters = Object.entries(letterStatuses).filter(([letter, letterStatus]) =>
       [status.yellow, status.green].includes(letterStatus)
     )
