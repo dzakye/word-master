@@ -30,7 +30,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
               Aprèi tsekye ëndinnâe, é caron van eni vè, dzânó, ou gri.
             </li>
           </ul>
-          <div className="mb-3 mt-8 flex items-center">
+          <div className="mb-4 mt-4 flex items-center">
             <span className="nm-inset-n-green text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
               Ō
             </span>
@@ -50,7 +50,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }: Props) => (
           <span className="mx-2 text-3x">=</span>
           <span className="mb-2 text-xl">Wétra fósa</span>
         </div>
-        <div className="flex justify-center sm:text-base text-sm">
+        <div className="mt-3 flex justify-center sm:text-base text-sm">
           <span className="mb-2 text-xl">Sti prójé l'é ën partâdzó wibró ('open source')</span>
           <a
             className="ml-[6px] rounded-full h-5 w-5 sm:h-6 sm:w-6"
