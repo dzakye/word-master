@@ -100,7 +100,7 @@ export const SettingsModal = ({
                 target="_blank"
                 rel="noreferrer"
               >
-                pae oun caféi
+                paé oun caféi
               </a>
               <span className="ml-1 text-xs">💛</span>
             </div>
