@@ -18,7 +18,7 @@ const state = {
 }
 
 export const difficulty = {
-  easy: 'ijya',
+  easy: 'easy',
   normal: 'normal',
   hard: 'hard',
 }
