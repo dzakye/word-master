@@ -100,7 +100,7 @@ export const SettingsModal = ({
                 target="_blank"
                 rel="noreferrer"
               >
-                pae oun caféi
+                paé oun caféi
               </a>
               <span className="ml-1 text-xs">💛</span>
             </div>
@@ -112,7 +112,7 @@ export const SettingsModal = ({
             >
               <img
                 alt="Pó mé pae oun caféi"
-                src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=katherinecodes&button_colour=eab308&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
+                src="https://img.buymeacoffee.com/button-api/?text=Mé paé oun caféi&emoji=&slug=katherinecodes&button_colour=eab308&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
               />
             </a>
           </div>
