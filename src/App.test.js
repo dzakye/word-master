@@ -3,6 +3,6 @@ import App from './App'
 
 test('renders the WORD MASTER title', () => {
   render(<App />)
-  const title = screen.getByText(/RWÉ DI MÓ DÉ SËN/i)
+  const title = screen.getByText(/TSÀSE I MÓ DÉ SËN/i)
   expect(title).toBeInTheDocument()
 })
