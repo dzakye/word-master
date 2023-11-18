@@ -2,7 +2,7 @@
   "name": "word-master",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dzakye.github.io/word-master/",
+  "homepage": "https://patwe.ch/tsase",
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@testing-library/jest-dom": "^5.16.1",
