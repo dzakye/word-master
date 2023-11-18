@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tsase/static/css/main.b16d5b24.css",
-    "main.js": "/tsase/static/js/main.c9b9c794.js",
+    "main.js": "/tsase/static/js/main.14a4b66b.js",
     "static/media/Cross.png": "/tsase/static/media/Cross.cbf77228e847522eff11.png",
     "static/media/Ranade-Variable.ttf": "/tsase/static/media/Ranade-Variable.bb177f94a709e8e8f396.ttf",
     "index.html": "/tsase/index.html",
@@ -10,10 +10,10 @@
     "static/media/Info.svg": "/tsase/static/media/Info.ee717ac430bb01bfbbd42aa3dbffe913.svg",
     "static/media/Close.svg": "/tsase/static/media/Close.f34771d5d250820d8c5ec83c816bf8f5.svg",
     "main.b16d5b24.css.map": "/tsase/static/css/main.b16d5b24.css.map",
-    "main.c9b9c794.js.map": "/tsase/static/js/main.c9b9c794.js.map"
+    "main.14a4b66b.js.map": "/tsase/static/js/main.14a4b66b.js.map"
   },
   "entrypoints": [
     "static/css/main.b16d5b24.css",
-    "static/js/main.c9b9c794.js"
+    "static/js/main.14a4b66b.js"
   ]
 }
